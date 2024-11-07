@@ -14,7 +14,7 @@ func _ready():
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(_delta):
 	# Revisamos todas las colisiones
-	for i in character.get_slide_collision_count():
+	for i in character.get_slide_collision_count() and character:
 		# Obtenemos la colisión
 		var collision = character.get_slide_collision(i)
 		# Obtenemos el collider
