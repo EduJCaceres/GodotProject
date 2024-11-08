@@ -31,8 +31,8 @@ var _punch_sound = preload("res://assets/sounds/punch.mp3")
 var _male_hurt_sound = preload("res://assets/sounds/male_hurt.mp3")
 
 # Definición de parametros de física
-var _gravity = 10
-var _speed = 25
+var _gravity = 15
+var _speed = 40
 # Definición de dirección de movimientos
 var _moving_left = true
 # Copia de objeto que entra a colisión
